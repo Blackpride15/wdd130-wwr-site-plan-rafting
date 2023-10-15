@@ -1,7 +1,9 @@
 body {
     text-align: center;
   }
-
+  body {
+    margin: 0
+}
   nav {
     background-color: steelblue;
     padding: 80px;
@@ -14,11 +16,22 @@ body {
     color: white;
     margin: 40px;
   }
+  nav {
+    padding: 25px;
+}
 
+a {
+  padding: 25px;
+}
+  
   h1 {
     color: steelblue;
+    
   }
-
+  h1 {
+    margin: 100px 0;
+}
+  
   img {
     width: 800px;
     border: 4px solid steelblue;
@@ -50,5 +63,5 @@ a {
 nav, footer {
   background-color: steelblue;
   color: white;
-  padding: 10px;
+  padding: 25px;
 }
