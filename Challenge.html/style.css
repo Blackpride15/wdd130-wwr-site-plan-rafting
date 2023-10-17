@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100;
+    width: 100%;
+    display: flex;
+    /* justify-content: 100%; */
+    justify-content: center;
+    position: relative;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    
+}
+
+.small-image {
+    width: 150px;
+    margin: 20px;
+    padding: 0px;
+    border-radius: 200px;
+}
+
+
+.large-image {
+    width: 200%;
+    height: auto;
+    object-fit: cover;
+    margin: 0;
+
+}
