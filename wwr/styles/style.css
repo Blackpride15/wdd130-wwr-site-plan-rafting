@@ -10,10 +10,12 @@ nav a,
 .button-box,
 main section {
     text-align: center;
+    background-color: #fcfbfb;
+    
 }
 
 body {
-    background-color: #fcfbfb;
+    background-color: #e1ffff;
 }
 
 header {
@@ -26,15 +28,15 @@ nav a:hover {
 
 #background {
     height: 725px;
+    background-color: #0105269e; 
 }
 
 .msg {
-    background-color: white
-    
+    background-color: rgb(149, 206, 247) 
 }
 
 footer {
-    background-color: whitesmoke
+    background-color: rgb(4, 44, 104)
    
 }
 
@@ -50,7 +52,7 @@ h4,
 .msg p,
 footer,
 footer a,
-footer a:hover {  background-color: rgb(168, 187, 200);}
+footer a:hover {  background-color: rgb(149, 206, 247);}
 
 .icon {
     width: 80px;
