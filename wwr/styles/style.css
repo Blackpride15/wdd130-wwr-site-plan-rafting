@@ -51,8 +51,8 @@ nav a {
 }
 
 .book, .join {
-    background-color: #000404;
-    color: #201f1f;
+    background-color: #ffffff;
+    color: rgb(255, 250, 250);
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
@@ -108,7 +108,7 @@ footer {
     font-size: 18px;
     padding: 15px 30px;
     margin-top: 50px;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 .card-img {
