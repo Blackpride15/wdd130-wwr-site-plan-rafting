@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- <link rel="stylesheet" href="styles/river.css"> -->
+   
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="image/Site_plan_files/logo.png" alt="Dry Oar Logo">
+            </a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">River</a></li>
+                <li><a href="site-plan-rafting.html">Site Plan</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header> 
+    <main>
+        <style>
+            #feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+        </style>
+        <section>
+            
+            <div id="feedback"></div>
+            <form action="/my-handling-form-page" method="post">
+                <div class="form-questions">
+                    <ul>
+                        <li>
+                          <div class="label-description">
+                              <label for="name">Name:</label>
+                          </div>
+                          <input type="text" id="name" name="user_name" />
+                        </li>
+                        <li>
+                          <div class="label-description">
+                              <label for="mail">Email:</label>  
+                          </div>
+                          
+                          <input type="email" id="mail" name="user_email" />
+                        </li>
+                        <li>
+                          <div class="label-description">
+                              <label for="msg">Message:</label>
+                          </div>
+                          <textarea id="msg" name="user_message"></textarea>
+                        </li>
+                      </ul>
+                </div>
+                <button type="submit">Send your message</button>
+              </form>
+            
+        </section>
+
+    </main>
+    <footer>
+        <p>Dry Oar &copy; 2023- Blessing Asukwo</p>
+       <a class="footer-link" href="site-plan-rafting.html">Site Plan</a>
+       <a class="footer-link" href="contactus.html">Contact Us</a>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="image/Site_plan_files/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="image/Site_plan_files/twitter.png" alt="twitter icon">
+            </a>    
+            <a href="https://instagram.com" target="_blank">
+                <img src="image/Site_plan_files/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
+    <script>
+        // get the feedback div element so we can do something with it.
+        const feedbackElement = document.getElementById('feedback');
+        // get the form so we can read what was entered in it.
+        const formElement = document.forms[0];
+        // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+        formElement.addEventListener('submit', function(e) {
+            // stop the form from doing the default action.
+            e.preventDefault();
+            // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+            feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+            // make the feedback element visible.
+            feedbackElement.style.display = "block";
+            // add a class to move everything down so our message doesn't cover it.
+            document.body.classList.toggle('moveDown');
+        });
+    </script>
+</body>
+</html>
