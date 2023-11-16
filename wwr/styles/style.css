@@ -378,6 +378,7 @@ h4,
 .form-questions {
     /* Center the form on the page */
     margin: 20px auto;
+    margin-top: -120px;
     width: 400px;
     
     /* Form outline */
