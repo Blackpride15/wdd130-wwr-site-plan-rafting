@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,900;1,100&display=swap');
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #41337a  ;
+  --secondary-color: #272442 ;
+  --accent1-color: #C2EFEB;
+  --accent2-color: white;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: "Poppins";
+  --paragraph-font: Poppins, Helvetica, sans-serif;
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: #272442 ;  /* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #396E94  ;
+  --nav-link-color: #396E94;
+  --nav-background-color: #97d3e8;
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: #396E94;
+}
+
+/* index page */
+body{
+    
+    min-height: 100%;
+    background-color: rgb(252, 255, 255);
+    background-position: center;
+    margin: 0;
+    /* overflow: hidden; */
+    
+}
+
+.head-section{
+    background-color: #f0eff4;
+    padding: 36px 98px;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0px 11px 4px 0px rgba(0, 0, 0, 0.132);
+}
+
+nav{
+   display:flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   /* box-shadow: 0px 11px 4px 0px rgba(0, 0, 0, 0.25); */
+
+}
+
+.logo{
+    width: 73.851px;
+    height: 67.943px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px 20px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #41337a;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: Poppins;
+    
+}
+
+.hero{
+    background: #272442;
+}
+
+.hero-wrapper{
+    display: flex;
+    padding-inline: 98px;
+    padding-top: 156px;
+    padding-bottom: 54px;
+    justify-content: space-between;
+}
+
+.my-image{
+    height: 100%;
+    width: 400px;
+    border-radius: 12px;
+}
+
+.hero-msg{
+    max-width: 671px;
+}
+
+.home-title{
+    color: #F2F2F2 ;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: Poppins;
+}
+
+.explianer{
+    color:#F2F2F2;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 174%;
+    margin-top: 34px;
+    margin-bottom: 76px;
+}
+.button-box{
+    display: flex;
+    width: 216px;
+    height: 65px;
+    padding: 0px 56px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #C2EFEB;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #272442;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-family: Poppins;
+}
+
+
+.body-float-text{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 91px;
+    padding-bottom: 110px;
+    padding-inline: 98px;
+}
+
+.body-float-text p{
+    max-width: 474px;
+    width: 474px;
+    flex-shrink: 0;
+    color: #232323;
+
+    font-family: Poppins;
+    font-size: 20px;
+    font-style:normal;
+    font-weight: 600;
+    line-height: 174%; 
+}
+
+.pill-mama{
+    display: flex;
+    padding: 41px 40px 47.191px 23px;
+    align-items: center;
+    border-radius: 12px;
+    background: #ECECEC;
+    width: 716px;
+    overflow-x: scroll;
+    flex-direction: column;
+    gap: 42px;
+
+}
+
+.pill-wrapper{
+    display: flex;
+    gap: 34px;
+    width: 100%;
+}
+
+.pill {
+    display: flex;
+    padding: 16px 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    background: #43357B;
+    width: 246px ;
+    box-sizing: border-box;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    flex-shrink: 0;
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    padding: 0px 97.625px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    background: #FFF;
+    box-sizing: border-box;
+    box-shadow: 4px -6px 37.7px 0px rgba(0, 0, 0, 0.17);
+
+}
+.foot{
+    display: flex;
+    gap: 77px;
+    
+}
+.foot a{
+    text-decoration: none;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 18px;
+    color: #41337a;
+}
+
+
+.social{
+    height: 20px;
+    width:20px ;
+    justify-content: space-between;
+    gap: 34px;
+}
+/* index page end */
+
+/* about page start*/
+
+
+.about-header{
+
+    padding-inline: 98px;
+    padding-top: 80px;
+    /* padding-bottom: 54px; */
+}
+.about-title{
+    width: 302px;
+    height: 62px;
+    color: #404040;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.about-msg{
+    max-width: 671px;
+}
+
+.about-flex{
+    padding: 0px 98px;
+    margin-top: 70px;
+}
+.about-flex_item{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    gap: 50px;
+}
+
+.about-flex_item:nth-child(even){
+    flex-direction: row-reverse;
+    margin: 100px 0;
+}
+
+.about-text{
+    text-align: left;
+    font-size: 14px;
+    line-height: 28px;
+    color: #2a2a2a;
+}
+h2{
+    color: #828282;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+h3{
+    width: 211px;
+    height: 48px;
+    color: #404040;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
+    padding: 10px 0px;
+}
+
+.text{
+    width: 474px;
+    color: #404040;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 174%; /* 34.8px */
+    align-content: start;
+}
+
+.texts{
+    width: 100%;
+    color: #f2f2f2;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 174%; /* 34.8px */
+    padding-top: 20px;
+}
+
+.experience{
+    display: flex;
+    max-width:100%;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    gap: 54px;
+    padding-inline: 98px;
+    background: #272442;
+    /* display: inline-flex; */
+    padding: 84px 108px 166px 104px;
+    /* align-items: center; */
+}
+
+
+.about-item ul li a{
+    text-decoration: none;
+    color: #C2EFEB;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: Poppins;
+    padding-bottom: 16px;
+    width: 292px;
+    height: 48px;
+}
+
+
+/* about page end*/
+
+/* contact starts */
+.contct-msg{
+    padding: 96px 715px 139px 100px;
+    align-items: center;
+    background: #272442;
+    width: 1440;
+    height: 400px;
+}
+.contact-title{
+    width: 671px;
+    color:  #E0E0E0;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.ready{
+    width: 935px;
+    color: #E0E0E0;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 174%; /* 34.8px */
+    padding-top: 24px;
+    padding-bottom: 76px;
+}
+
+.link{
+    justify-content: center;
+    gap: 69px;
+    padding-inline: 100px;
+    padding-bottom: 20px;
+    padding-top: 76px;
+    
+}
+
+.about-items{
+    width: 671px;
+    flex-shrink: 0;
+    color: #404040;    
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
+
+}
+.let{
+    width: 1206px;
+    color: #333;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 174%; /* 34.8px */
+    padding-inline-end: 98px;
+    padding-top: 70px;
+    padding-bottom: 222px;
+
+}
+.cover{
+    display: flex;
+    max-width: 671px;
+    justify-content:space-between;
+    gap: 100px;
+    /* padding-inline: 98px; */
+}
+
+.links{
+    flex-direction: column;
+    align-items:start;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+
+.about-items li a{
+    width: 671px;
+    flex-shrink: 0;
+    color: #404040;    
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
+
+}
+
