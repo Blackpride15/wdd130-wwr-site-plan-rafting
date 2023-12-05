@@ -199,6 +199,7 @@ footer{
     background: #FFF;
     box-sizing: border-box;
     box-shadow: 4px -6px 37.7px 0px rgba(0, 0, 0, 0.17);
+    font-family: Poppins;
 
 }
 .foot{
@@ -212,8 +213,19 @@ footer{
     font-weight: 600;
     font-size: 18px;
     color: #41337a;
+    font-family: Poppins;
 }
-
+.footer-link{
+    display: flex;
+    align-items: flex-start;
+    gap: 77px;
+    color: #333;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 155%; /* 31px */
+}
 
 .social{
     height: 20px;
@@ -437,4 +449,12 @@ h3{
     list-style: none;
 
 }
-
+.fo{
+    align-items:center;
+    color: #333;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 155%; /* 31px */
+}
