@@ -17,7 +17,7 @@
   --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
+  --nav-link-color: #41337a;
   --nav-background-color: #97d3e8;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #396E94;
@@ -326,7 +326,7 @@ h3{
 }
 
 
-.about-item ul li a{
+.about-item ul a{
     text-decoration: none;
     color: #C2EFEB;
     font-weight: 600;
@@ -335,6 +335,9 @@ h3{
     padding-bottom: 16px;
     width: 292px;
     height: 48px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -431,6 +434,7 @@ h3{
     font-weight: 600;
     line-height: normal;
     text-decoration-line: underline;
+    list-style: none;
 
 }
 
